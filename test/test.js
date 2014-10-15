@@ -59,15 +59,15 @@ describe('deep-string', function () {
     });
 
     it('should trim strings recursively through an object containing an array', function () {
-        var strArray = { a: '  a', b: 'b  ', c: ['   ca', 'cb   '], d: 'd', e: null, f: undefined, h: 1, i: false, j: new Date('2001-01-01') };
-
-        expect(deepTrim(strArray)).to.eql({ a: 'a', b: 'b', c: ['ca', 'cb'], d: 'd', e: null, f: undefined, h: 1, i: false, j: new Date('2001-01-01') });
-    });
-
-    it('should trim strings recursively through an object containing an array leaving all other values untouched', function () {
         var strArray = { a: '  a', b: 'b  ', c: ['   ca', 'cb   '], d: 'd' };
 
         expect(deepTrim(strArray)).to.eql({ a: 'a', b: 'b', c: ['ca', 'cb'], d: 'd' });
+    });
+
+    it('should trim strings recursively through an object containing an array leaving all other values untouched', function () {
+        var strArray = { a: '  a', b: 'b  ', c: ['   ca', 'cb   '], d: 'd', e: null, f: undefined, h: 1, i: false, j: new Date('2001-01-01') };
+
+        expect(deepTrim(strArray)).to.eql({ a: 'a', b: 'b', c: ['ca', 'cb'], d: 'd', e: null, f: undefined, h: 1, i: false, j: new Date('2001-01-01') });
     });
 
     it('should trim strings recursively through an array containing an object', function () {
