@@ -1,0 +1,29 @@
+{
+  "name": "deep-trim",
+  "version": "0.1.0",
+  "description": "Recursively trim all the strings in a collection (object or array).",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R nyan"
+  },
+  "bugs": {
+    "url": "https://github.com/carsy/node-deep-trim/issues/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/carsy/node-deep-trim.git"
+  },
+  "keywords": [
+    "trim",
+    "string",
+    "array",
+    "object",
+    "collection"
+  ],
+  "author": "Zé Bateira <jlageb@gmail.com> (http://carsy.github.io)",
+  "license": "MIT",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^1.21.5"
+  }
+}
