@@ -33,4 +33,4 @@ deepTrim({ a: '  a', b: 'b  ', c: ['   ca', 'cb   '], d: 'd' });
 
 ## License
 
-Released under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
+Released under the [MIT License](https://opensource.org/licenses/MIT).
