@@ -7,11 +7,11 @@
     "test": "mocha -R nyan"
   },
   "bugs": {
-    "url": "https://github.com/carsy/node-deep-trim/issues/"
+    "url": "https://github.com/zebateira/node-deep-trim/issues/"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/carsy/node-deep-trim.git"
+    "url": "git://github.com/zebateira/node-deep-trim.git"
   },
   "keywords": [
     "trim",
@@ -20,7 +20,7 @@
     "object",
     "collection"
   ],
-  "author": "Zé Bateira <jlageb@gmail.com> (http://carsy.github.io)",
+  "author": "Zé Bateira <jlageb@gmail.com> (https://zebateira.github.io/)",
   "license": "MIT",
   "devDependencies": {
     "expect.js": "^0.3.1",
