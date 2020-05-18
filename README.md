@@ -1,12 +1,12 @@
 # deep-trim [![Build Status](https://travis-ci.org/zebateira/node-deep-trim.svg?branch=master)](https://travis-ci.org/github/zebateira/node-deep-trim)
 
-
 Recursively trim all the strings in a collection (object or array).
 
+## Install
 
-## Installation
-
-`$ npm install deep-trim`
+```bash
+$ npm install deep-trim
+```
 
 ## Usage
 
@@ -28,8 +28,9 @@ deepTrim({ a: '  a', b: 'b  ', c: ['   ca', 'cb   '], d: 'd' });
 
 ## Tests
 
-`$ npm test`
-
+```bash
+$ npm test
+```
 
 ## License
 
