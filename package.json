@@ -1,6 +1,6 @@
 {
   "name": "deep-trim",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Recursively trim all the strings in a collection (object or array).",
   "main": "index.js",
   "scripts": {
