@@ -20,7 +20,7 @@
     "object",
     "collection"
   ],
-  "author": "Zé Bateira <jlageb@gmail.com> (https://zebateira.github.io/)",
+  "author": "Zé Bateira <jose.bateira@protonmail.com> (https://zebateira.github.io/)",
   "license": "MIT",
   "devDependencies": {
     "expect.js": "^0.3.1",
